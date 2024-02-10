@@ -64,12 +64,14 @@ copia_cpf.insert(11,y)
 print(f"Seu CPF completo é: ")
 
 for pos, n in enumerate(copia_cpf):
-	  print(n,end=" ")
-	  if pos == 2:
-	     print(". ",end="")
-	  if pos == 5:
-	  				 print(". ",end="")
-	  if pos == 8:
-	  				 print("- ",end="")
+ print(n,end=" ")
+if pos == 2:
+	print(". ",end="")
+elif pos == 5:
+	print(". ",end="")
+elif pos == 8:
+	print("- ",end="")
+     
+	  
 					  
 					    
